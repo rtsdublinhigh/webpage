@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewpoint" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <link rel = "stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "bootstrap-4.1.2-dist/bootstrap-4.1.2-dist/css/bootstrap.css">
+    <link rel = "icon" href = "Images/logo.png">
+    <title>Reaching To Society</title>
+  </head>
+  <body>
+    <div class = "image0" style = "height: 100vh">
+      <h1 id = "header"><u></u></h1>
+      <script>
+          var i = 0;
+          var txt = 'Reaching To Society'; /* The text */
+          var speed = 120; /* The speed/duration of the effect in milliseconds */
+
+          function typeWriter() {
+            if (i < txt.length) {
+              document.getElementById("header").innerHTML += txt.charAt(i);
+              i++;
+              setTimeout(typeWriter, speed);
+            }
+          }
+          window.onload = typeWriter
+        </script>
+    </div>
+    <div class = "text">
+      <p>     Reaching To Society(RTS), formally Reach To Homeless Society, is a club created in 2015 which focuses on volunteering for the society, so that people who are under-expressed can receive help. We go on a hiking trip and when we hike we turn on the app "Charity Miles" so that every mile we hike we raise money for a non-profit organization, specifically the National Multiple Sclerosis Society. Also every month, we go to San Francisco to serve food for homeless people in a soup kitchen/non-profit organization called "St. Anthony's". We go to “Fertile Groundworks” in Livermore to farm produce, which goes to local soup kitchens<p>
+    </div>
+    <div class="image2" style = "height: 36vh">
+      <h2>Key Trips</h2>
+    </div>
+    <div class="text" >
+        <ul>
+          <li>Sunol Little Yosemite</li>
+          <li>Mission Peak</li>
+          <li>San Francisco Soup Kitchen</li>
+          <li>Mount Diablo</li>
+        </ul>
+    </div>
+    <div class="image1" style = "height: 36vh">
+      <h2>RTS Board</h2>
+    </div>
+    <div class = "text">
+      <div style = "margin-bottom: 100px">
+          <div class="row">
+            <!--These are the content that exlpains what I do for fun-->
+            <div class="col-lg-3">
+              <img style = "border-radius:50%" src="Images/paul.png"  width="140" height="140">
+                <h3 style = "font-size:30px">President</h3>
+                  <p>Paul Kim</p>
+            </div>
+            <!-- This is for the coding section-->
+            <div class="col-lg-3">
+              <img style = "border-radius:50%" src="Images/ryan.png"  width="140" height="140">
+                <h3 style = "font-size:30px">Vice President</h3>
+                  <p> Ryan Kim </p>
+            </div>
+            <!-- This is the final segment-->
+            <div class="col-lg-3">
+              <img style = "border-radius:50%" src="Images/Conor.png"  width="140" height="140">
+                  <h3 style = "font-size:30px">Secretary</h3>
+                    <p>Connor Park</p>
+            </div>
+            <div class="col-lg-3">
+              <img style = "border-radius:50%" src="Images/sragvi.png"  width="140" height="140">
+                  <h3 style = "font-size:30px">Treasurer</h3>
+                    <p>Sragvi Vadali</p>
+            </div>
+          </div>
+        </div>
+        <div style = "text-align: center">
+                <p><a class="btn btn-secondary" id = "read" href="https://forms.gle/gDL85kzAqs1c6wy97"
+                      role="button"><strong>Apply Now</strong></a>
+                </p>
+                    <!--This is the CSS for the hover feature on the button-->
+                      <style>
+                        #read:hover {
+                          opacity:0.6; /*Opacity = Transperancy*/
+                        }
+                      </style>
+       </div>
+      </div>
+  </body>
+</html>
